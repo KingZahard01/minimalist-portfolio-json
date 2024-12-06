@@ -171,26 +171,34 @@
   ],
   "projects": [
     {
-      "name": "E-Commerce Platform",
+      "name": "Blog de Notas",
       "isActive": true,
-      "description": "Developed a full-featured e-commerce platform with user authentication, product management, and payment integration.",
+      "description": "Desarrollé una API que se comunica con una base de datos y una interfaz de usuario.",
       "highlights": [
-        "Built reusable components using React.js.",
-        "Implemented secure payment processing with Stripe API.",
-        "Deployed application using AWS Elastic Beanstalk."
+        "Node.js",
+        "MySQL",
+        "Express.js",
+        "React.js",
+        "Bootstrap",
+        "Font Awesome",
+        "Axios",
+        "Sequelize"
       ],
-      "url": "https://ecommerceproject.com"
+      "url": "https://github.com/KingZahard01/FullStack-Node-React"
     },
     {
-      "name": "Real-Time Chat Application",
+      "name": "Minimalist Portfolio JSON",
       "isActive": true,
-      "description": "Created a real-time chat application using WebSockets for seamless communication.",
-      "highlights": [
-        "Integrated real-time messaging with Socket.io.",
-        "Designed a responsive UI using TailwindCSS.",
-        "Ensured data security with JWT-based authentication."
-      ],
-      "url": "https://chatapp.com"
+      "description": "Una plantilla de CV minimalista fácil de imprimir, centrada en la legibilidad y el diseño limpio.",
+      "highlights": ["Astro", "JSON", "Typescript"],
+      "url": "https://github.com/KingZahard01/minimalist-portfolio-json"
+    },
+    {
+      "name": "Calculadora",
+      "isActive": true,
+      "description": "Simple calculadora desarrollada con HTML, TailwindCSS y JavaScript.",
+      "highlights": ["HTML", "JavaScript", "TailwindCSS"],
+      "url": "https://kingzahard01.github.io/calc-js/"
     }
   ]
 }
