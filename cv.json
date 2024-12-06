@@ -191,7 +191,7 @@
       "isActive": true,
       "description": "Una plantilla de CV minimalista fácil de imprimir, centrada en la legibilidad y el diseño limpio.",
       "highlights": ["Astro", "JSON", "Typescript"],
-      "url": "https://github.com/KingZahard01/minimalist-portfolio-json"
+      "url": "https://minimalist-portfolio-json-olive.vercel.app/"
     },
     {
       "name": "Calculadora",
