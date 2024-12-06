@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Juan José García Valdez",
+    "label": "Desarrollador Backend",
+    "image": "/public/logo-lion.webp",
+    "email": "juanj.garciav265@gmail.com",
+    "phone": "(622)131-3098",
+    "url": "https://johndoe.com",
+    "summary": "Desarrollador motivado, con habilidades en desarrollo web frontend y backend. Con conocimientos en ",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "85426",
+      "city": "Guaymas",
+      "countryCode": "MX",
+      "region": "Sonora"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "john",
+        "url": "https://github.com/KingZahard01"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "john",
+        "url": "https://linkedin.com/in/john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company 2",
+      "position": "President 2",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Company 1",
+      "position": "President 1",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Sonora",
+      "url": "https://www.itson.mx/Paginas/index.aspx",
+      "area": "Ingeniero en Software",
+      "studyType": "Bachelor",
+      "startDate": "2020-08-24",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Advanced",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "Django",
+      "level": "Advanced",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": ["SQL", "Backend Development"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Development"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": ["Development"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "isActive": true,
+      "description": "Developed a full-featured e-commerce platform with user authentication, product management, and payment integration.",
+      "highlights": [
+        "Built reusable components using React.js.",
+        "Implemented secure payment processing with Stripe API.",
+        "Deployed application using AWS Elastic Beanstalk."
+      ],
+      "url": "https://ecommerceproject.com"
+    },
+    {
+      "name": "Real-Time Chat Application",
+      "isActive": true,
+      "description": "Created a real-time chat application using WebSockets for seamless communication.",
+      "highlights": [
+        "Integrated real-time messaging with Socket.io.",
+        "Designed a responsive UI using TailwindCSS.",
+        "Ensured data security with JWT-based authentication."
+      ],
+      "url": "https://chatapp.com"
+    }
+  ]
+}
