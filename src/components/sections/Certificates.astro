@@ -15,8 +15,12 @@ import {certificates} from '@cv'
                                 <a href={url} target="_blank">{name}</a>
                             </h3>
                         </header>
-                        <footer>
+                        <footer class="no-print">
                             <p>{issuer}</p>
+                        </footer>
+                        <footer class="print accesible-info">
+                            <p>{issuer}</p>
+                            <p>{url}</p>
                         </footer>
                     </article>
                 </li>
