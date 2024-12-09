@@ -79,10 +79,10 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
+      "name": "Responsive Web Design",
       "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/juan-jose-garcia-valdez/responsive-web-design"
     }
   ],
   "publications": [
