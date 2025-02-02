@@ -5,10 +5,10 @@
     "image": "/public/logo-lion.webp",
     "email": "juanj.garciav265@gmail.com",
     "phone": "(622)131-3098",
-    "url": "https://johndoe.com",
+    "url": "",
     "summary": "Desarrollador motivado, con habilidades en desarrollo web frontend y backend.",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "",
       "postalCode": "85426",
       "city": "Guaymas",
       "countryCode": "MX",
@@ -17,12 +17,12 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "john",
+        "username": "",
         "url": "https://github.com/KingZahard01"
       },
       {
         "network": "LinkedIn",
-        "username": "john",
+        "username": "",
         "url": "https://www.linkedin.com/in/juangarval/"
       }
     ]
@@ -174,6 +174,21 @@
     }
   ],
   "projects": [
+    {
+      "name": "Gematria Explorer",
+      "isActive": true,
+      "description": "A web application that allows you to search for words in the Torah by their gematria value.",
+      "highlights": [
+        "Node.js",
+        "Express",
+        "MongoDB Atlas",
+        "React.js",
+        "CORS",
+        "Mongoose",
+        "dotenv"
+      ],
+      "url": "https://gematria-explorer-frontend.vercel.app/"
+    },
     {
       "name": "Blog de Notas",
       "isActive": true,
