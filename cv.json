@@ -191,7 +191,7 @@
     },
     {
       "name": "Blog de Notas",
-      "isActive": true,
+      "isActive": false,
       "description": "Desarrollé una API que se comunica con una base de datos y una interfaz de usuario.",
       "highlights": [
         "Node.js",
