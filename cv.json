@@ -183,7 +183,7 @@
     },
     {
       "name": "Blog de Notas",
-      "isActive": false,
+      "isActive": true,
       "description": "Desarrollé una aplicación web para gestionar tareas diarias, con autenticación de usuarios.",
       "highlights": ["Django", "PostreSQL", "React.js"],
       "url": "https://app-notas-frontend.vercel.app/"
