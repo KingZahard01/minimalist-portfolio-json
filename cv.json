@@ -177,8 +177,8 @@
     {
       "name": "Gematria Explorer",
       "isActive": true,
-      "description": "A web application that allows you to search for words in the Torah by their gematria value.",
-      "highlights": ["Node.js", "Express", "MongoDB Atlas", "React.js"],
+      "description": "Una aplicación web que te permite buscar palabras en la Torá por su valor numérico.",
+      "highlights": ["Node.js", "Express", "MongoDB", "React.js"],
       "url": "https://gematria-explorer-frontend.vercel.app/"
     },
     {
