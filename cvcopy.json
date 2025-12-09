@@ -1,0 +1,236 @@
+{
+  "basics": {
+    "name": "Juan José García Valdez",
+    "label": "Full Stack Developer Jr",
+    "image": "/logo.jpg",
+    "email": "juanj.garciav265@gmail.com",
+    "phone": "(622)131-3098",
+    "url": "",
+    "summary": "Desarrollador Full Stack con experiencia práctica en Python (FastAPI), React y APIs REST. He construido y desplegado aplicaciones web completas utilizando arquitecturas modernas. Busco mi primera oportunidad profesional en un entorno de startup tecnológica.",
+    "location": {
+      "address": "",
+      "postalCode": "85426",
+      "city": "Guaymas",
+      "countryCode": "MX",
+      "region": "Sonora"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "",
+        "url": "https://github.com/KingZahard01"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/juangarval/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Proyectos Técnicos Autónomos",
+      "position": "Desarrollador Full Stack",
+      "url": "https://github.com/KingZahard01",
+      "startDate": "2023-06-01",
+      "endDate": "2024-12-01",
+      "summary": "Desarrollo y despliegue de aplicaciones web completas para portafolio técnico",
+      "highlights": [
+        "APIs REST con FastAPI y Django desplegadas en Render",
+        "Aplicaciones Full Stack con React frontend",
+        "Arquitecturas cliente-servidor desacopladas",
+        "Autenticación y autorización de usuarios",
+        "Optimización de consultas a bases de datos"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Sonora",
+      "url": "https://www.itson.mx/Paginas/index.aspx",
+      "area": "Ingeniería en Software",
+      "studyType": "Licenciatura",
+      "startDate": "2020-08-24",
+      "endDate": "2024-12-01",
+      "score": "4.0",
+      "courses": [
+        "Estructuras de Datos",
+        "Bases de Datos",
+        "Ingeniería de Software",
+        "Programación Web"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Responsive Web Design",
+      "date": "2024-05-15",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/juan-jose-garcia-valdez/responsive-web-design"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": ["FastAPI", "Django", "Backend Development", "APIs REST"]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Avanzado",
+      "keywords": ["APIs REST", "OpenAPI", "Pydantic", "Async/Await"]
+    },
+    {
+      "name": "Django",
+      "level": "Intermedio-Avanzado",
+      "keywords": ["APIs REST", "Autenticación", "Serializers", "ORM"]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Hooks", "Components", "State Management", "Frontend"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": ["Type Safety", "JavaScript Superset", "Frontend/Backend"]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": ["Express", "Backend Development", "APIs"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["ES6+", "Frontend Development", "Backend Development"]
+    },
+    {
+      "name": "SQL",
+      "level": "Intermedio",
+      "keywords": ["SQL", "Relational Database", "Database Design"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": ["NoSQL", "Document Database", "Indexing"]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Version Control", "GitHub", "Collaborative Development"]
+    },
+    {
+      "name": "APIs REST",
+      "level": "Avanzado",
+      "keywords": [
+        "API Design",
+        "HTTP Methods",
+        "Status Codes",
+        "Documentation"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Web Development", "Responsive Design", "Semantic HTML"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Web Development", "Responsive Design", "Semantic HTML"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio (B1)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tecnología",
+      "keywords": [
+        "Inteligencia Artificial",
+        "Machine Learning",
+        "Automatización",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "name": "Desarrollo",
+      "keywords": [
+        "Open Source",
+        "APIs",
+        "Arquitectura de Software",
+        "Buenas Prácticas"
+      ]
+    },
+    {
+      "name": "Aprendizaje",
+      "keywords": [
+        "Cursos Técnicos",
+        "Documentación",
+        "Proyectos Personales",
+        "Comunidades Tech"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "API REST Escalable con FastAPI",
+      "isActive": true,
+      "description": "API completa desarrollada con FastAPI y PostgreSQL, desplegada en Render. Incluye sistema de búsqueda avanzada, documentación automática OpenAPI y 30k+ registros.",
+      "highlights": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Render",
+        "OpenAPI/Swagger"
+      ],
+      "url": "https://github.com/KingZahard01/daily-phrase"
+    },
+    {
+      "name": "Sistema de Autenticación y CRUD",
+      "isActive": true,
+      "description": "Sistema backend con Django REST Framework que implementa autenticación por tokens, CRUD completo y protección de datos por usuario.",
+      "highlights": [
+        "Django REST Framework",
+        "Autenticación",
+        "API REST",
+        "SQLite",
+        "Postman"
+      ],
+      "url": "https://github.com/KingZahard01/app-notas"
+    },
+    {
+      "name": "Aplicación Full Stack React + Express",
+      "isActive": true,
+      "description": "Aplicación completa con frontend en React (Vercel) y backend en Express (Render). Sistema de búsqueda con MongoDB y migrando a TypeScript.",
+      "highlights": [
+        "React",
+        "Express",
+        "MongoDB",
+        "TypeScript",
+        "Vercel",
+        "Render"
+      ],
+      "url": "https://gematria-explorer-frontend.vercel.app/"
+    },
+    {
+      "name": "Portafolio Técnico Minimalista",
+      "isActive": true,
+      "description": "Portafolio web optimizado para performance y SEO, desarrollado con Astro y TypeScript. Muestra proyectos técnicos de forma clara y profesional.",
+      "highlights": ["Astro", "TypeScript", "JSON", "SEO", "Performance"],
+      "url": "https://minimalist-portfolio-json-olive.vercel.app/"
+    }
+  ]
+}
