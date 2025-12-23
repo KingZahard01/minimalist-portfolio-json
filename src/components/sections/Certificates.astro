@@ -1,31 +1,35 @@
 ---
-import Section from '@/components/Section.astro'
+import Section from "@/components/Section.astro";
 
-import {certificates} from '@cv'
+import { certificates } from "@cv";
 ---
 
-<Section title="Certificados">
+<Section title="Certificates">
     <ul>
-        {certificates.map(({name, url, issuer}) => {
-            return (
-                <li>
-                    <article>
-                        <header>
-                            <h3>
-                                <a href={url} target="_blank">{name}</a>
-                            </h3>
-                        </header>
-                        <footer class="no-print">
-                            <p>{issuer}</p>
-                        </footer>
-                        <footer class="print accesible-info">
-                            <p>{issuer}</p>
-                            <p>{url}</p>
-                        </footer>
-                    </article>
-                </li>
-            )
-        })}
+        {
+            certificates.map(({ name, url, issuer }) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <h3>
+                                    <a href={url} target="_blank">
+                                        {name}
+                                    </a>
+                                </h3>
+                            </header>
+                            <footer class="no-print">
+                                <p>{issuer}</p>
+                            </footer>
+                            <footer class="print accesible-info">
+                                <p>{issuer}</p>
+                                <p>{url}</p>
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
     </ul>
 </Section>
 
@@ -68,7 +72,6 @@ import {certificates} from '@cv'
         line-height: 1.2rem;
         margin-bottom: 4px;
     }
-
 
     footer {
         display: flex;

@@ -1,7 +1,7 @@
 ---
-import {basics } from '@cv'
+import { basics } from "@cv";
 
-const {profiles } = basics
+const { profiles } = basics;
 
 const SOCIAL_ICONS: Record<string, string> = {
     GitHub: `<svg
@@ -37,52 +37,52 @@ const SOCIAL_ICONS: Record<string, string> = {
         fill="currentColor"
         d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
     ></path></svg
-    >`
-}
+    >`,
+};
 
 const profilesInfo = profiles.map(({ network, url }) => {
-    const icon = SOCIAL_ICONS[network]
-    const firstLetter = network[0].toUpperCase()
+    const icon = SOCIAL_ICONS[network];
+    const firstLetter = network[0].toUpperCase();
 
-    return { 
+    return {
         id: network,
-        section: 'Social',
-        title: `Visitar ${network}`, 
-        url, 
+        section: "Social",
+        title: `Visitar ${network}`,
+        url,
         icon,
-        hotkey: `ctrl+${firstLetter}`
-    }
-})
+        hotkey: `ctrl+${firstLetter}`,
+    };
+});
 ---
 
 <footer class="no-print">
     Pulsa <kbd>ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
 </footer>
 
-<ninja-keys 
-data-info={JSON.stringify(profilesInfo)} 
-placeholder="Presiona una tecla" 
-hideBreadcrumb>
+<ninja-keys
+    data-info={JSON.stringify(profilesInfo)}
+    placeholder="Presiona una tecla"
+    hideBreadcrumb
+>
 </ninja-keys>
 
 <script>
-    import "ninja-keys"
+    import "ninja-keys";
 
-    const ninja = document.querySelector("ninja-keys")
+    const ninja = document.querySelector("ninja-keys");
 
-    
     if (ninja !== null) {
-        const info = ninja.getAttribute("data-info") ?? "[]"
-        const parsedInfo = JSON.parse(info)
+        const info = ninja.getAttribute("data-info") ?? "[]";
+        const parsedInfo = JSON.parse(info);
 
         const data = parsedInfo.map((item: any) => {
             return {
                 ...item,
                 handler: () => {
-                    window.open(item.url, "_blank")
-                }
-            }
-        })
+                    window.open(item.url, "_blank");
+                },
+            };
+        });
 
         ninja.data = [
             {
@@ -95,19 +95,20 @@ hideBreadcrumb>
                 hotkey: "ctrl+P",
                 section: "Acciones",
                 handler: () => {
-                    window.print()
+                    window.print();
                 },
-            }, ...data,
-        ]
+            },
+            ...data,
+        ];
     }
 </script>
 
 <style>
     @media print {
-		ninja-keys {
-			display: none !important;
-		} 
-	}
+        ninja-keys {
+            display: none !important;
+        }
+    }
 
     @keyframes fadeIn {
         from {
@@ -123,9 +124,9 @@ hideBreadcrumb>
         border-top: 1px solid #eee;
         position: fixed;
         bottom: 0px;
-        width: 100%;   
+        width: 100%;
         padding-block: 8px;
-        text-align: center; 
+        text-align: center;
         font-size: 0.85rem;
 
         view-timeline-name: --revealing;
@@ -144,33 +145,33 @@ hideBreadcrumb>
     }
 
     @media (min-width: 601px) {
-    #normal-footer {
-      display: block;
+        #normal-footer {
+            display: block;
+        }
+
+        #footer-button {
+            display: none;
+        }
     }
 
-    #footer-button {
-      display: none;
-    }
-  }
+    @media (max-width: 600px) {
+        #normal-footer {
+            display: none;
+        }
 
-  @media (max-width: 600px) {
-    #normal-footer {
-      display: none;
+        #footer-button {
+            background: #fff;
+            position: fixed;
+            border: 1px solid #eee;
+            right: 10px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
     }
-
-    #footer-button {
-      background: #fff;
-      position: fixed;
-      border: 1px solid #eee;
-      right: 10px;
-      bottom: 10px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-  }
 </style>
